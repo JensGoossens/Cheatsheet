@@ -1,8 +1,8 @@
 #GIT
 -----------|-----------
--git clone 'link'
+*git clone 'link'
 
--git pull 'link'
+*git pull 'link'
 
 
 TROUBLESHOOTING
