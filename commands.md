@@ -14,4 +14,26 @@ Troubleshooting van de DNS-server
   DNS instellingen tonen | ```ipconfig /displaydns```
    DNS instellingen tonen | ```ipconfig /displaydns```
     DNS instellingen tonen | ```ipconfig /displaydns```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+#Checklist
+Volgorde voor troubleshooten
+Laag | Opties
+-----------|----------
+Hardware | kabels?
+Netwerkinterface | ....
+Internet | ip a(eerst install net-tool) , Nat = 10.0.2.15 in VBox, default gateway(ip r) 
+Transport |
+Applicatie |
+
     
+    
+
