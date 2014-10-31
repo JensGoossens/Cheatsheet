@@ -31,8 +31,7 @@ Laag | Opties
 -----------|----------
 Hardware | kabels?
 Netwerkinterface | ....
-Internet | ip a(eerst install net-tool) , Nat = 10.0.2.15 in VBox, default gateway(ip r) , DNS (cat /etc/resolv.conf) 
-ping default gateway, ping andere host binnen subnet, traceroute naar buiten(kan falen), ping DNS
+Internet | ip a(eerst install net-tool) , Nat = 10.0.2.15 in VBox, default gateway(ip r) , DNS (cat /etc/resolv.conf) ping default gateway, ping andere host binnen subnet, traceroute naar buiten(kan falen), ping DNS
 dig installeren, algemeen zoekcommando : yum provides -bin/dig(=PATTERN)
 Transport | Zijn de poorten open?: sudo systemctl status httpd.service, sudo ss -tulpn(TcpUdpListenProcessNumber), 
             sudo ps -ef. poort geblokkeerd? sudo firewall -cmdd --list-all, sudo iptables -L -n -v.
