@@ -26,6 +26,7 @@ Troubleshooting van de DNS-server
  
 #Checklist
 Volgorde voor troubleshooten
+
 Laag | Opties
 -----------|----------
 Hardware | kabels?
