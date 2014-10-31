@@ -35,10 +35,11 @@ Internet | ip a(eerst install net-tool) , Nat = 10.0.2.15 in VBox, default gatew
 Transport | Zijn de poorten open?: sudo systemctl status httpd.service, sudo ss -tulpn(TcpUdpListenProcessNumber), sudo ps -ef. poort geblokkeerd? sudo firewall -cmdd --list-all, sudo iptables -L -n -v.Van buitenaf:portscanner: nmap -A -T4, nmap -sS -sU, 
 Applicatie | Client software of troubleshooting tools : curl,wget voor web, smbclient,nmblookup,net use voor fileserver.Bekijk de logfiles!: sudo journalctl -f -u httpd.service
 
-Foutboodschappen : - No route to host: internetlaag, probleem met IP
-                   - Connection refused : transportlaag, service draait niet of is gefilterd..
-                   - Unable to resolve host : internet/applicatie, DNS niet beschikbaar
-                   - ERROR 404 : applicatie, URL verkeerd, fout in Apache...
+Foutboodschappen :
+- No route to host: internetlaag, probleem met IP
+- Connection refused : transportlaag, service draait niet of is gefilterd..
+- Unable to resolve host : internet/applicatie, DNS niet beschikbaar
+- ERROR 404 : applicatie, URL verkeerd, fout in Apache...
 
     
     
